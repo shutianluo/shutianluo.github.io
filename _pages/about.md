@@ -6,7 +6,7 @@ subtitle: Assistant Professor at the University of Macau
 
 profile:
   align: right
-  image: shutianluoUpdate.jpg
+  image: newHomepage.jpg
   email_image: email_picture.jpg
   email_label: "Email:"
   email_username: shutianluo
