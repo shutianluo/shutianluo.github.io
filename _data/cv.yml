@@ -4,9 +4,9 @@
     - name: Full Name
       value: Shutian Luo
     - name: Current Position
-      value: Postdoctoral Researcher, Department of Computer Science, University of Virginia
+      value: Assistant Professor, University of Macau
     - name: Location
-      value: Charlottesville, VA, USA
+      value: Macau SAR, China
     - name: Email
       value: ksy8xs@virginia.edu
     - name: Languages
@@ -30,9 +30,20 @@
 - title: Academic Appointments
   type: time_table
   contents:
+    - title: Assistant Professor
+      institution: University of Macau, Macau SAR, China
+      year: 2026 – Present
+      description:
+        - Research on AI systems and infrastructure, cloud-native AI platforms, and distributed systems.
+        - Recruiting 2–3 self-motivated Ph.D. students for Fall 2027.
+    - title: Senior Research Scientist
+      institution: ByteDance, Seattle, WA, USA
+      year: 2026
+      description:
+        - Research on systems and infrastructure for large-scale AI workloads.
     - title: Postdoctoral Researcher
       institution: Department of Computer Science, University of Virginia, USA
-      year: Feb. 2025 – Present
+      year: Feb. 2025 – 2026
       description:
         - Advisor – Prof. Haiying Shen.
         - Superchip-based LLM infrastructure, including zero-copy KV-cache offloading and MoE expert streaming over NVLink-C2C.

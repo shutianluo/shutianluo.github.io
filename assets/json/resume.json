@@ -1,18 +1,18 @@
 {
   "basics": {
     "name": "Shutian Luo",
-    "label": "Postdoctoral Researcher in Computer Science",
+    "label": "Assistant Professor at the University of Macau",
     "image": "",
     "email": "ksy8xs@virginia.edu",
     // "phone": "+1 (475) 224-7063",
     "url": "https://scholar.google.com/citations?user=-V3ekXkAAAAJ&hl=en",
-    "summary": "Postdoctoral researcher in computer science working on AI infrastructure and systems for machine learning, with a focus on cloud-native microservices, RDMA-based distributed shared memory, and GPU-centric LLM and MoE serving.",
+    "summary": "Assistant professor working on AI infrastructure and systems for machine learning, with a focus on cloud-native microservices, RDMA-based distributed shared memory, and GPU-centric LLM and MoE serving.",
     "location": {
       "address": "",
-      "postalCode": "22903",
-      "city": "Charlottesville",
-      "countryCode": "US",
-      "region": "Virginia"
+      "postalCode": "",
+      "city": "Macau",
+      "countryCode": "MO",
+      "region": "Macau SAR"
     },
     "profiles": [
       {
@@ -24,10 +24,31 @@
   },
   "work": [
     {
+      "name": "University of Macau",
+      "position": "Assistant Professor",
+      "url": "https://www.um.edu.mo/",
+      "startDate": "2026",
+      "summary": "Assistant professor conducting research on AI systems and infrastructure, cloud-native AI platforms, and distributed systems.",
+      "highlights": [
+        "Recruiting 2–3 self-motivated Ph.D. students for Fall 2027."
+      ]
+    },
+    {
+      "name": "ByteDance",
+      "position": "Senior Research Scientist",
+      "url": "https://www.bytedance.com/",
+      "startDate": "2026",
+      "endDate": "2026",
+      "location": "Seattle, WA, USA",
+      "summary": "Senior research scientist working on systems and infrastructure for large-scale AI workloads.",
+      "highlights": []
+    },
+    {
       "name": "University of Virginia",
       "position": "Postdoctoral Researcher, Department of Computer Science",
       "url": "https://www.cs.virginia.edu/",
       "startDate": "2025-02-01",
+      "endDate": "2026",
       "summary": "Postdoctoral researcher working on AI infrastructure and systems for large-scale LLM and MoE inference on NVIDIA Superchips and heterogeneous CPU–GPU platforms.",
       "highlights": [
         "Designed zero-copy KV-cache offloading on NVIDIA Superchips that treat CPU and GPU memory as a unified heterogeneous hierarchy, with asymmetric CUDA kernels for long-context LLM inference.",

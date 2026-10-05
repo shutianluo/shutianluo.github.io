@@ -32,6 +32,46 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
+        {% if page.profile.email_image %}
+          {% assign email_image_path = page.profile.email_image | prepend: 'assets/img/' %}
+          <div class="profile-email-row">
+            {% if page.profile.email_label %}
+              <span class="profile-email-label">{{ page.profile.email_label }}</span>
+            {% endif %}
+            {% if page.profile.email_username %}
+              <span class="profile-email-username">{{ page.profile.email_username }}</span>
+            {% endif %}
+            <img
+              class="profile-email"
+              src="{{ email_image_path | relative_url }}"
+              alt="Email address"
+              loading="eager"
+            >
+          </div>
+          <div class="profile-links" aria-label="Profile links">
+            {% if site.data.socials.cv_pdf %}
+              <a href="{{ site.data.socials.cv_pdf | relative_url }}" title="CV" aria-label="CV" target="_blank">
+                <i class="ai ai-cv"></i>
+              </a>
+            {% endif %}
+            {% if site.data.socials.email %}
+              <a href="mailto:{{ site.data.socials.email | encode_email }}" title="Email" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            {% endif %}
+            {% if site.data.socials.scholar_userid %}
+              <a
+                href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+                title="Google Scholar"
+                aria-label="Google Scholar"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="ai ai-google-scholar"></i>
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}

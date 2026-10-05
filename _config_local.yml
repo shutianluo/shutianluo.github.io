@@ -1,0 +1,29 @@
+# Local preview overrides. Keep remote sample feeds disabled so the site can
+# build and serve without requiring network access.
+external_sources: []
+
+# Optional demo content requires tools that are not needed to preview this site.
+exclude:
+  - bin/
+  - CONTRIBUTING.md
+  - CUSTOMIZE.md
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - FAQ.md
+  - Gemfile
+  - Gemfile.lock
+  - INSTALL.md
+  - LICENSE
+  - lighthouse_results/
+  - package.json
+  - package-lock.json
+  - _pages/about_einstein.md
+  - purgecss.config.js
+  - README.md
+  - readme_preview/
+  - vendor
+  - assets/jupyter/
+
+imagemagick:
+  enabled: false

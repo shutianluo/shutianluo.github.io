@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: University of Virginia. Postdoctoral Researcher
+subtitle: Assistant Professor at the University of Macau
 
 profile:
   align: right
-  image: shutianLuo.jpg
+  image: shutianluoUpdate.jpg
+  email_image: email_picture.jpg
+  email_label: "Email:"
+  email_username: shutianluo
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Email: ksy8xs@virginia.edu</p>
-    <p>Charlottesville, VA 22903</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # CV and Google Scholar links are displayed below the profile email
 
 announcements:
   enabled: true # includes a list of news items
@@ -27,16 +27,13 @@ latest_posts:
 ---
 
 
-Shutian Luo is currently a Postdoctoral Researcher in the Department of Computer Science at the University of Virginia, working with Prof. [Haiying Shen](https://www.cs.virginia.edu/~hs6ms/). He received his Ph.D. in Computer Application Technology from the University of Chinese Academy of Sciences in 2023, advised by Prof. [Chengzhong Xu](https://www.fst.um.edu.mo/personal/czxu/) and working closedly with Prof. [Huanle Xu](https://www.fst.um.edu.mo/personal/huanlexu/). Previously, he was a Postdoctoral Associate at Yale University with Prof. [Lin Zhong](https://linzhong.org/) and Prof. [Anurag Khandelwal](https://www.anuragkhandelwal.com/).
+I am a tenure-track Assistant Professor in the Department of Computer Science at the [University of Macau](https://www.um.edu.mo/). My research interests lie broadly in AI systems, cloud computing, and distributed systems. My current research focuses on building efficient AI infrastructure over emerging heterogeneous computing architectures.
 
-<!-- ## Research Interests -->
+Before joining the University of Macau, I conducted research at ByteDance in Seattle and held postdoctoral positions at the University of Virginia and Yale University. I received my Ph.D. from the University of Chinese Academy of Sciences in 2023.
 
-His research lies at the intersection of **AI systems and infrastructure** and **cloud-native AI platforms**. His goal is to build hardware-aware systems that make modern AI workloads—especially LLMs and MoE models—efficient, scalable, and practical to deploy in real data centers.
+<!-- , advised by Prof. [Chengzhong Xu](https://www.fst.um.edu.mo/personal/czxu/) and working closely with Prof. [Huanle Xu](https://www.fst.um.edu.mo/personal/huanlexu/). -->
 
-Current interests include:
-- **LLM & MoE infrastructure:** Superchip- and MIG-based serving systems, KV-cache offloading, expert streaming.  
-- **Memory-centric AI systems:** RDMA- and DSM-based hierarchical memory for cross-node / cross-GPU workloads.  
-- **Cloud-native runtimes for AI workloads:** Resource management for microservices, serverless platforms, and latency-sensitive AI pipelines.
+> **I am recruiting 2–3 self-motivated Ph.D. students for Fall 2027.** Prospective students interested in AI systems, AI infrastructure and distributed systems are encouraged to get in touch.
 
 
 <!-- His research lies at the intersection of AI infrastructure, distributed systems, and computer architecture, with a focus on building efficient systems and infrastructure for large language model (LLM).
