@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<div class="post">
+  <article class="member-profile">
+    <div class="member-sidebar">
+      {% if page.photo %}
+        <img class="member-photo" src="{{ page.photo | prepend: '/assets/img/' | relative_url }}" alt="{{ page.title }}">
+      {% else %}
+        {% assign name_parts = page.title | split: ' ' %}
+        {% capture initials %}{% for part in name_parts limit: 2 %}{{ part | slice: 0 }}{% endfor %}{% endcapture %}
+        <div class="member-photo member-photo-placeholder"><span>{{ initials }}</span></div>
+      {% endif %}
+      <h1 class="member-name">{{ page.title }}</h1>
+      {% if page.years %}<p class="member-meta">{{ page.years }}</p>{% endif %}
+      {% if page.affiliation %}<p class="member-meta">{{ page.affiliation }}</p>{% endif %}
+      <div class="member-links">
+        {% if page.homepage_url %}
+          <a href="{{ page.homepage_url }}" title="Homepage" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-house"></i></a>
+        {% endif %}
+        {% if page.github_url %}
+          <a href="{{ page.github_url }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+        {% endif %}
+        {% if page.scholar_url %}
+          <a href="{{ page.scholar_url }}" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
+        {% endif %}
+      </div>
+    </div>
+    <div class="member-main">
+      <div class="member-bio">{{ content }}</div>
+      <div class="member-columns">
+        {% if page.interests %}
+          <div class="member-col">
+            <h3>Interests</h3>
+            <ul>
+              {% for interest in page.interests %}
+                <li>{{ interest }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+        {% if page.education %}
+          <div class="member-col">
+            <h3>Education</h3>
+            <ul class="member-edu">
+              {% for edu in page.education %}
+                <li>
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <div>
+                    <span class="member-edu-degree">{{ edu.degree }}</span><br>
+                    <span class="member-edu-school">{{ edu.school }}</span>
+                  </div>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      </div>
+      <p class="member-back"><a href="{{ '/group/' | relative_url }}">&larr; Back to the group</a></p>
+    </div>
+  </article>
+</div>

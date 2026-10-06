@@ -1,0 +1,448 @@
+\documentclass{resume} % Use the custom resume.cls style
+% \usepackage[UTF8, adobefonts]{ctex} % Use Adobe fonts
+% \usepackage[UTF8, adobefonts]{ctex}
+
+\usepackage[left=0.75in,top=0.4in,right=0.75in,bottom=0.6in]{geometry} % Document 
+\usepackage{sectsty}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy} 
+\lhead{}  
+\chead{} 
+\cfoot{- \thepage\ of \pageref{LastPage} -}
+\rfoot{Curriculum Vitae}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\usepackage{enumitem}
+\usepackage[pdftex]{color,hyperref}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=blue,urlcolor=blue,
+            anchorcolor=blue,citecolor=blue}
+
+\newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
+\newcommand\doi[1]{doi:\doilink{#1}}
+
+% For \url{SOME_URL}, links SOME_URL to the url SOME_URL
+\providecommand*\url[1]{\href{#1}{#1}}
+% Same as above, but pretty-prints SOME_URL in teletype fixed-width font
+\renewcommand*\url[1]{\href{#1}{\texttt{#1}}}
+
+% For \email{ADDRESS}, links ADDRESS to the url mailto:ADDRESS
+\providecommand*\email[1]{\href{mailto:#1}{#1}}
+\name{Shutian Luo} % Your name
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\vspace{-3.5em}
+
+\begin{rSection}{Contact}
+\begin{minipage}[t]{0.59\textwidth}
+Assistant Professor \\
+Department of Computer Science, University of Macau \\
+Location: Macau SAR, China
+% Senior Software Engineer, ByteDance \\
+% Location: Seattle, WA, U.S.
+\end{minipage}
+% Adjust the space to move the second minipage to the right
+\begin{minipage}[t]{0.35\textwidth}
+  Email: \email{shutianluo@um.edu.mo} \\
+  \href{https://shutianluo.github.io/}{Homepage} and \href{https://scholar.google.com/citations?user=-V3ekXkAAAAJ&hl=en&oi=ao}{Google Scholar}
+\end{minipage}
+\end{rSection}
+\vspace{-1.5em}
+
+\begin{rSection}{Education}
+% \begin{rSubsection}{Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences 
+\begin{rSubsection}{University of Chinese Academy of Sciences
+  }{Sept. 2016 - {Jan. 2023}} {}{}
+\item[] Doctor of Philosophy, Computer Applied Technology \\
+Dissertation Advisor: Prof. \href{https://www.fst.um.edu.mo/personal/czxu/}
+                   {Chengzhong Xu}.
+                   % and co-advisor Assistant Prof. \href{https://www.fst.um.edu.mo/people/huanlexu/} {Huanle Xu}
+                   Thesis: Research on Key Technologies of Intelligent Resource Management for Cloud Native Microservices Workload.
+\end{rSubsection} 
+
+% \end{rSubsection} 
+\vspace{-0.5em}
+\begin{rSubsection}{Shenzhen University} {Sept. 2012 - Jul. 2016}{}{}
+\item[]  
+Bachelor of Engineering, Electronic Science and Technology\\
+{Postgraduate Recommendation} 
+\textbf{(3 out of 283)} \\
+\end{rSubsection}
+\vspace{-1em}
+\end{rSection}
+\vspace{-1.5em}
+
+% \item Resource management for large-scale microservice application in cloud-native environment. 
+% \item Memory optimization for LLM inference. 
+% \item Future Vision about Cloud for AI System. 
+
+% \textbf{Research Interests} \\
+\begin{rSection}{RESEARCH INTERESTS}
+\begin{itemize}[left=0pt, labelsep=0.5em, itemsep=0pt, topsep=0pt]
+\item AI systems and infrastructure for scalable foundation models and generative AI
+\item GPU- and CPU–GPU-heterogeneous systems for large-scale LLM and MoE serving
+% \item Cloud-native and RDMA/DSM-based runtimes for robotics, autonomous systems and data-intensive scientific computing on GPU platform.
+% \item AI foundations and methods for scalable foundation models and generative AI, with a focus on systems–algorithm co-design.
+% \item AI infrastructure and systems for machine learning, especially large-scale LLM and MoE serving on heterogeneous CPU–GPU platforms (e.g., NVIDIA Superchips).
+% \item Cloud-native and GPU-centric runtimes and resource management for robotics and autonomous systems, and RDMA/DSM-based platforms for data-intensive scientific computing.
+\end{itemize}
+\end{rSection}
+\vspace{-0.5em}
+
+% \begin{rSection}{RESEARCH INTERESTS}
+% \begin{itemize}[left=0pt, labelsep=0.5em, itemsep=0pt, topsep=0pt]
+% \item AI foundations and methods for scalable foundation models and generative AI (LLMs and MoE), with an emphasis on systems–algorithm co-design.
+% \item Hardware and systems for AI: computer and distributed systems for large-scale LLM and MoE serving on heterogeneous CPU–GPU platforms (e.g., NVIDIA Superchips).
+% \item Data-intensive and cloud AI systems: cloud-native and GPU-centric runtimes and resource management (microservices, serverless platforms, and RDMA/DSM-based systems) for large-scale, latency-sensitive, and AI-driven scientific workloads.
+% \end{itemize}
+% \end{rSection}
+
+
+% \begin{rSection}{RESEARCH INTERESTS}
+% \begin{itemize}
+% \begin{itemize}[noitemsep, topsep=0pt]
+% \begin{itemize}[left=0pt, labelsep=0.5em, itemsep=0pt, topsep=0pt]
+% \item Intelligent and scalable resource management for large-scale, latency-sensitive microservice applications in cloud-native environments.
+% \item GPU memory and system-level optimization for efficient and high-performance large language models (LLMs) inference.
+% Research Interests
+
+% \item AI foundations and methods for scalable foundation models and generative AI (LLMs and MoE), with an emphasis on systems–algorithm co-design.
+% \item Hardware and systems for AI: AI infrastructure for large-scale LLM and MoE serving on heterogeneous CPU–GPU platforms (e.g., NVIDIA Superchips).
+% \item Data-intensive and cloud AI systems: cloud-native and GPU-centric runtimes and resource management (microservices, serverless platforms, and RDMA/DSM-based systems) for large-scale, latency-sensitive and AI-driven scientific workloads.
+
+
+% \time AI foundations and methods for scalable foundation models and generative AI, with a focus on systems–algorithm co-design.
+% \item AI infrastructure and systems for machine learning, with a focus on large-scale LLM and MoE serving on heterogeneous CPU–GPU platforms (e.g., NVIDIA Superchips).
+% \item Cloud-native and GPU-centric runtimes and resource management: microservices, serverless platforms, and RDMA/DSM-based systems for large-scale, latency-sensitive AI workloads.
+% \item AI infrastructure and systems for machine learning, especially large-scale LLM and MoE serving on heterogeneous CPU--GPU platforms.
+% \item Cloud-native and GPU-centric runtime and resource management: microservices, serverless platforms, and RDMA/DSM-based systems for large-scale, latency-sensitive AI workloads.
+% \end{itemize}
+% \end{rSection}
+
+  % \item Future vision: Redesign cloud infrastructure for AI-centric computing by integrating disaggregated memory, intelligent runtimes, and hardware/software co-optimization to meet the scalability, efficiency, and flexibility demands of next-generation AI workloads.
+
+% \vspace{-1em}
+% Distributed system, Cloud computing, AI system and HPC system
+
+\begin{rSection}{Work Experience}
+% \begin{rSubsection}{Research Scientist, ByteDance, Seattle}{Dec. 2025 -- Present}{}{}
+% \item[]
+% {Autonomous Driving \& Robotics AI Platform}
+% \begin{itemize}
+% \item Design and optimize GPU-centric AI platforms for autonomous driving and robotics workloads, including multi-sensor perception and planning models.
+% \end{itemize}
+% \end{rSubsection}
+
+
+\begin{rSubsection}{Assistant Professor, University of Macau} {2026 - Present} {}{}
+\item[]
+Department of Computer Science
+\begin{itemize}
+ \item Lead the AI Infra Group, building efficient AI infrastructure over emerging heterogeneous computing architectures, with a current focus on efficient LLM systems, CPU–GPU superchips, and physical AI.
+\end{itemize}
+\end{rSubsection}
+\vspace{-0.5em}
+
+\begin{rSubsection}{Senior Software Engineer, ByteDance Seattle} {Dec. 2025 - 2026} {}{}
+\item[]
+\begin{itemize}
+ \item Designed and implemented asymmetric GEMM kernels for next-generation NVIDIA Blackwell superchips, optimized for heterogeneous memory and high-bandwidth CPU–GPU interconnects.
+ % \item Open-sourced and actively maintained the asymmetric GEMM implementation with benchmarks, documentation, and ongoing performance/compatibility updates.
+\end{itemize}
+\end{rSubsection}
+\vspace{-0.5em}
+
+\begin{rSubsection}{Postdoctoral Researcher, University of Virginia}{Feb. 2025 - Dec. 2025} {}{}
+\item[]
+Advisor: Prof. \href{https://www.cs.virginia.edu/~hs6ms/}{Haiying Shen}
+\begin{itemize}
+  % \item Proposed a zero-copy KV cache mechanism to improve GPU memory efficiency for LLM inference. Introduced shared GPU memory pooling to reduce KV cache migration overhead in multimodal LLM serving.
+  % \item Proposed zero-copy KV cache offloading on Superchip GPU to improve memory efficiency and performance in LLM inference. 
+  % \item Proposed zero-copy KV cache offloading on NVIDIA Superchips that treat CPU and GPU memory as a unified heterogeneous hierarchy and redsigned a CUDA kernel for asymmetric computation among CPU and GPU hetergeious hardware to improve GPU memory efficiency and latency for long-context LLM inference.
+  \item Built NVIDIA Superchip inference systems: zero-copy KV-cache offloading and on-demand MoE expert streaming, improving long-context latency, memory efficiency, and throughput.
+% \item Serverless LLM using Multi-instance GPUs (MIGs) on Superchip GPU for fine-grained GPU sharing for flexibility and scalability.
+  % that eliminates redundant data movement between CPU and GPU.
+  % \item Tackled KV cache migration overhead in multimodal LLM serving by introducing a shared GPU memory pooling mechanism for KV cache management, improving resource efficiency under constrained GPU memory.
+\end{itemize}
+\end{rSubsection}
+\vspace{-0.5em}
+
+\begin{rSubsection}{Postdoctoral Researcher, Yale University}{Jun. 2023 - Jan. 2025} {}{}
+\item[]
+  Advisor: Prof. \href{https://linzhong.org/}{Lin Zhong} and Co-advisor: Prof. \href{https://www.anuragkhandelwal.com/}{Anurag Khandelwal}
+  % in \href{https://www.yecl.org/}{Efficient Computing Lab.}
+  % \setlength{\itemsep}{0.2em}
+  % \setlength{\parskip}{0pt}
+\begin{itemize}
+  \item Explored the trade-off between performance and programming transparency for data-parallel workloads in RDMA-based distributed shared memory (DSM) systems.
+  % through the design of a software-defined cache coherence mechanism.
+  % \item Developed an optimized pipeline for LLM inference within a serverless framework, achieving high scalability under dynamic workloads.
+   % \item Extended DSM designs toward cross-GPU-node scenarios using GPU-direct RDMA and pinned memory regions as a foundation for cross-node AI memory systems for MoE global model sharing.
+\end{itemize}
+\end{rSubsection}
+\vspace{-0.5em}
+
+\vspace{-0.5em}
+\begin{rSubsection}{Research Assistant, University of Macau}{Apr. 2021 - May 2023} {}{}
+\item[] 
+\href{https://www.fst.um.edu.mo/personal/huanlexu/huanlexu-team/}{Cloud and Distributed Systems Lab}
+\begin{itemize}
+    \setlength{\itemsep}{0.2em}
+    \setlength{\parskip}{0pt}
+% \item Investigated workload variability in microservices by leveraging deep learning to predict workload patterns and associated uncertainties, enabling the design of a proactive autoscaling mechanism.
+\item Investigated workload variability in microservices using deep learning for predictive autoscaling, and proposed a resource management framework to ensure SLA requirement in shared environments.
+\end{itemize}
+\end{rSubsection} 
+
+\vspace{-0.5em}
+\begin{rSubsection}{Research Intern, Alibaba Cloud}{Nov. 2018 - Jan. 2023}{}{}
+\item[] 
+% Research Intern in Alibaba Innovative Research(\href{https://damo.alibaba.com/air/?lang=en}{AIR}).
+\begin{itemize}
+    \setlength{\itemsep}{0.2em}
+    \setlength{\parskip}{0pt}
+% \item Analyzed 100TB trace data across 20,000 large-scale and dynamic microservices in Alibaba clusters.
+\item Designed resource management system for online shopping application in Alibaba to handle extremely high load during Double 11 Festival for high performance.
+\end{itemize}
+\end{rSubsection}
+\end{rSection}
+\vspace{-1em}
+
+% \begin{rSection}{Research Interest}
+% \begin{enumerate}
+%     \setlength{\leftmargin}{0em}
+%     \setlength{\itemsep}{0.2em}
+%     \setlength{\parskip}{0pt}
+%         \item \textbf{Shutian Luo$^*$}, {Huanle Xu}$^*$, Chengzhi Lu, Kejiang Ye, Guoyao Xu, Liping Zhang, Yu Ding, Jian He, and Chengzhong Xu. ``Characterizing Microservice Dependency and Performance: Alibaba Trace Analysis'', accepted by SoCC'21 (\textbf{best paper award}).
+%         \item \textbf{Shutian Luo$^*$}, Huanle Xu$^*$, Kejiang Ye, Guoyao Xu, Liping Zhang, Jian He, Guodong Yang, and Chengzhong Xu. ``Erms: Efficient Resource Management for Shared Microservices with SLA Guarantees'', accepted by ASPLOS'23 Spring and published online soon
+%         \item \textbf{Shutian Luo$^*$}, Huanle Xu$^*$, Chengzhi Lu, Kejiang Ye, Guoyao Xu, Liping Zhang, Jian He, and Chengzhong Xu ``An In-depth Study of Microservice Call Graph and Runtime Performance'', accepted by TPDS
+% \end{enumerate}
+% \end{rSection}
+
+% \newpage  
+% \vspace{0.5\baselineskip} 
+\begin{rSection}{Selected Publications}
+\begin{enumerate}
+    \setlength{\leftmargin}{0em}
+    \setlength{\itemsep}{0.2em}
+    \setlength{\parskip}{0pt}
+        \item \textbf{[OSDI'26]} \underline{Shutian Luo} and Haiying Shen. No Buffer, No Bottleneck: Efficient Zero-Copy KV Cache Offloading for Long-Context LLMs. In Proceedings of the 20th USENIX Symposium on Operating Systems Design and Implementation. 2026.
+        \item \textbf{[HPDC'26]} Liao Chen, Chenyu Lin, Junlin Chen, \underline{Shutian Luo}, Huanle Xu and Chengzhong Xu. Cremes: Cost-Efficient and Reliable Microservice Execution on Spot Instances. In Proceedings of the 35th ACM International Symposium on High-Performance Parallel and Distributed Computing. 2026.
+        \item \textbf{[ASPLOS'25]} \underline{Shutian Luo}, Jianxiong Liao, Huanle Xu, Zhi Zhou and Chengzhong Xu. Embracing Imbalance: Dynamic Load Shifting among Microservice Containers in Shared Clusters. In Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems. 2025. 
+        \item \textbf{[SoCC'25]} Yanying Lin, Shuaipeng Wu, \underline{Shutian Luo}, and Hong Xu, Haiying Shen, Chong Ma, Min Shen, Le Chen, Chengzhong Xu, Lin Qu, Kejiang Ye. Understanding Diffusion Model Serving in Production: A Top-Down Analysis of Workload, Scheduling, and Resource Efficiency. In Proceedings of the 16th ACM Symposium on Cloud Computing. 2025.
+        % \item \textbf{[HPCA'25]} {Liao Chen}, Chenyu Lin, \underline{Shutian Luo}, Huanle Xu and Chengzhong Xu. Grad: Intelligent Microservice Scaling by Harnessing Resource Fungibility. In Proceedings of the 31st IEEE International Symposium on High-Performance Computer Architecture. 2025.
+        % \textbf{(CCF A)}
+        % \textbf{(CCF A)}
+        \item \textbf{[ISCA'24]} {Liao Chen}$^*$, \underline{Shutian Luo$^*$}, Chenyu Lin, Zizhao Mo, Huanle Xu, Kejiang Ye and Chengzhong Xu. Derm: SLA-aware Resource Management for Highly Dynamic Microservices. In Proceedings of the 51th International Symposium on Computer Architecture. 2024. 
+        % \textbf{(CCF A)}
+        % \item \textbf{[ICDCS'24]} Yanying Lin, Yanbo Li, Yingfei Tang, \underline{Shutian Luo}, Haiying Shen, Chengzhong Xu and Kejiang Ye. Quart: Latency-Aware FaaS System for Pipelining Large Model Inference. In Proceedings of the 44th IEEE International Conference on Distributed Computing Systems. 2024.
+        \item \textbf{[ASPLOS'23]} \underline{Shutian Luo}, Huanle Xu, Kejiang Ye, Guoyao Xu, Liping Zhang, Jian He, Guodong Yang, and Chengzhong Xu. Erms: Efficient Resource Management for Shared Microservices with SLA Guarantees. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems. 2023. 
+        % \textbf{(CCF A)}
+        % \item \textbf{[ACM SoCC'22]} \underline{Shutian Luo}, Huanle Xu, Kejiang Ye, Guoyao Xu, Liping Zhang, Jian He, and Chengzhong Xu. The Power of Prediction: Microservice Auto Scaling via Workload Learning. In Proceedings of the 13th ACM Symposium on Cloud Computing. 2022.
+        % \textbf{(CCF B)}
+        \item \textbf{[ACM SoCC'21]} \underline{Shutian Luo}, {Huanle Xu}, Chengzhi Lu, Kejiang Ye, Guoyao Xu, Liping Zhang, Yu Ding, Jian He, and Chengzhong Xu. Characterizing Microservice Dependency and Performance: Alibaba Trace Analysis. In Proceedings of the 12th ACM Symposium on Cloud Computing. 2021. 
+        \textbf{(Best Paper Award. The first paper in Asia.)}
+        % \textbf{(Best Paper Award. The first paper in Asia.)}
+        % \textbf{(CCF B. Best Paper Award. The first paper in Asia.)}
+        % \item \textbf{[IEEE TPDS]} \underline{Shutian Luo}, Huanle Xu, Chengzhi Lu, Kejiang Ye, Guoyao Xu, Liping Zhang, Jian He, and Chengzhong Xu. An In-depth Study of Microservice Call Graph and Runtime Performance. In Proceedings of IEEE Transactions on Parallel and Distributed Systems. 2022.
+        % \textbf{(CCF A)}
+        \item \textbf{[ACM TOCS]} \underline{Shutian Luo}, Chenyu Lin, Kejiang Ye, Guoyao Xu, Liping Zhang, Guodong Yang, Huanle Xu and Chengzhong Xu. Optimizing resource management for shared microservices: a scalable system design. In Proceedings of ACM Transactions on Computer Systems. 2024. \textbf{(The 10th paper from China in the past 40 years.)}
+        % \textbf{(The 10th paper from China in the past 40 years.)}
+        % \textbf{(CCF A. The 10th paper from China in the past 40 years.)}
+        % \textbf{(CCF B)}
+        % \item \textbf{[ISPA'24]} Chenyu Lin, \underline{Shutian Luo}, Huanle Xu. Exploring Imbalances among Microservice Containers in Large Cloud Platforms. In Proceedings of IEEE ISPA. 2024.
+        % \textbf{(CCF B)}
+\end{enumerate}
+\end{rSection}
+
+\vspace{-1em}
+\begin{rSection}{Working Papers}
+\begin{enumerate}
+    \setlength{\leftmargin}{0em}
+    \setlength{\itemsep}{0.2em}
+    \setlength{\parskip}{0pt}
+    % \item \underline{Shutian Luo} and Haiying Shen. No Buffer, No Bottleneck: Efficient Zero-Copy KV Cache Offloading for Long-Context LLMs. (accepted to OSDI'26)
+    \item \underline{Shutian Luo}, Haiying Shen, Yanying Lin and ChengZhong Xu. C2CMoE: On-Demand Expert Streaming over NVLink-C2C for Mixture-of-Experts Inference.
+    % \item \underline{Shutian Luo}, Chenxi Dai, Chenyu Lin,  Liao Chen, Huanle Xu,  Pan Zhou, Haiying Shen  and ChengZhong Xu. Nirem: A Non-intrusive Resource Management System for Microservices in Public Clouds.
+  \item Shuo Huang, \underline{Shutian Luo}, Lin Zhong and  Mingsung Kim. Pagoda: A Real-Time and End-to-End Large MIMO vRAN System. 
+    % \item Liao Chen, Chenyu Lin,  Junlin Chen, \underline{Shutian Luo},  Huanle Xu and ChengZhong Xu. Cremes: Cost-Efficient and Reliable Microservice Execution on Spot Instances.
+
+    % (submitted to NSDI 2025)
+  %   \item Liao Chen, Chenyu Lin, \underline{Shutian Luo}, Huanle Xu and Chengzhong Xu. Grad: Intelligent Microservice Scaling by Harnessing Resource
+  % Fungibility. (submitted to MICRO 2025)
+\end{enumerate}
+% \end{rSection}
+
+% \begin{rSection}{WORK IN PROGRESS}
+% \begin{enumerate}
+    % \item \underline{Shutian Luo}, Seung-seob Lee, Anurag Khandelwal and Lin Zhong. Efficient Hierarchical Memory Management for Machine Learning in Distributed Shared Memory Cluster.
+%     \item \underline{Shutian Luo}, Rui Yang, Caihua Li, Yue Cheng, Wei Wang and Haiying Shen. MIGServe: Serverless LLM Serving on MIG-Partitioned GPUs with Token-Level Scheduling.
+% \end{enumerate}
+% \end{rSection}
+
+% \newpage  
+\vspace{-1em}
+\begin{rSection}{Honors/ Awards}
+\begin{itemize}
+    \setlength{\leftmargin}{0em}
+    \setlength{\itemsep}{0.2em}
+    \setlength{\parskip}{0pt}
+  \item ACM SoCC'2021 \textbf{Best Paper} Award.
+  \item 2024 CCF Computer Architecture Outstanding Ph.D (\textbf{5 awarded annually}).
+  % \item 2024 CCF Computer Architecture Outstanding Ph.D (\textbf{5 awarded annually}).
+  % \item 2024 IEEE TCSC Outstanding Ph.D. Dissertation Award
+  \item 2024 IEEE Technical Community on Scalable Computing (TCSC) Outstanding Ph.D.
+  % (\textbf{5 awarded annually}).
+  % \item 2024 CCF Outstanding Ph.D. in Computer Architecture (awarded to only five Ph.D. annually).
+  \item 2024 Chinese Academy of Sciences Outstanding Ph.D. (\textbf{the first Ph.D.} to receive this award in the past 16 years at Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences).
+  \item \textbf{Alibaba Star offer} (P7 level, highly professional expert). Alibaba Star is the highest offer for Ph.D graduates, with no more than 10 positions offered annually at Alibaba. 
+  \item Outstanding Science Research Intern at Alibaba Cloud in 2021 (\textbf{awarded to only 12 interns}).
+  % \item Dean’s award for academic performance (top 1\%) in 2021
+
+% % \item Postgraduate Recommendation of Shenzhen University (Only three students get that in EE) in Oct. 2015
+%   \item ACM SoCC'2021 Best Paper Award.
+%   % \item CCF Architecture-track Outstanding Ph.D in 2024 (awarded to only 5 Ph.D).
+%   % \item Chinese Academy of Sciences Outstanding Ph.D in 2024 (the first Ph.D awarded this reward in the past 16 years in Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences).
+%   \item 2024 CCF Computer Architecture Outstanding Ph.D (5 awarded annually).
+%   % \item 2024 China Computer Federation (CCF) Computer Architecture Outstanding Ph.D (5 awarded annually).
+%   \item IEEE Technical Community on Scalable Computing (TCSC) Outstanding Ph.D in 2024.
+%   \item Chinese Academy of Sciences Outstanding Ph.D. in 2024 (the first Ph.D. to receive this award in the past 16 years at Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences).
+%   % \item Alibaba Star offer (P7 level, highly professional expert). Alibaba Star is the highest offer for Ph.D graduates, \textbf{with no more than 10 positions offered annually at Alibaba}. (Similar to Huawei Talent).
+%   \item Alibaba Star offer (P7 level, highly professional expert). This is the highest offer for Ph.D. graduates, with fewer than 10 positions offered annually at Alibaba, similar to Huawei Talent.
+%   \item Outstanding Science Research Intern at Alibaba Cloud in 2021 (awarded to only 12 interns).
+  % \item Dean’s award for academic performance (top 1\%) in 2021
+  % \item Merit student award of University of the Chinese Academy of Sciences (top 5\%) in 2022
+  % \item Outstanding graduate student award of University of the Chinese Academy of Sciences
+\end{itemize}
+\end{rSection}
+\vspace{-1em}
+
+\begin{rSection}{Open-sourced Projects}
+\begin{itemize}
+ \setlength{\itemsep}{0.2em}
+    \setlength{\parskip}{0pt}
+\item Released two versions of Alibaba microservices traces: 100GB v2021[\href{https://github.com/alibaba/clusterdata/tree/master/cluster-trace-microservices-v2021}{Github}] and 2TB v2022[\href{https://github.com/alibaba/clusterdata/tree/master/cluster-trace-microservices-v2022}{Github}]
+\item Designed an efficient resource management System for microservices [\href{https://github.com/Cloud-and-Distributed-Systems/Erms}{Github}], earning three ACM badges for availability, functionality, and reproducibility from the conference committee.
+\end{itemize}
+\end{rSection}
+
+\vspace{-1em}
+% \begin{rSection}{Teaching \& Mentoring}
+% \begin{rSubsection}{Guest Lecturer in Cloud-Native Computing and Microservices}{2025}{University of Virginia}{}
+% \item[]
+% \begin{itemize}
+%     \setlength{\itemsep}{0.2em}
+%     \setlength{\parskip}{0pt}
+%     \item Designed and delivered guest lectures on cloud-native computing and microservices, including microservice dependency graphs, tail latency, and QoS-aware resource management using Alibaba Cloud traces.
+%     \item Prepared lecture slides and quizzes to help students reason about large-scale microservice workloads and resource management policies.
+% \end{itemize}
+% \end{rSubsection}
+
+% \vspace{-0.5em}
+% \begin{rSubsection}{Teaching Support in Systems Courses}{2021 -- 2023}{University of Macau}{}
+% \item[]
+% \begin{itemize}
+%     \setlength{\itemsep}{0.2em}
+%     \setlength{\parskip}{0pt}
+%     \item Assisted with courses in operating systems and distributed systems, including answering questions on concurrency, scheduling, and fault tolerance.
+%     \item Helped design and review programming assignments and projects that connect core systems concepts to real-world cloud workloads.
+% \end{itemize}
+% \end{rSubsection}
+
+% \vspace{-0.5em}
+% \begin{rSubsection}{Research Mentoring}{2019 -- Present}{}{ }
+% \item[]
+% \begin{itemize}
+%     \setlength{\itemsep}{0.2em}
+%     \setlength{\parskip}{0pt}
+%     \item Mentored research interns and junior Ph.D students on projects in microservice resource management and GPU/LLM infrastructure.
+%     \item Guided mentees through the full research cycle, including problem formulation, system design and implementation, experimental evaluation, and paper writing.
+% \end{itemize}
+% \end{rSubsection}
+% \end{rSection}
+
+% \begin{rSection}{Community Services}
+% \begin{itemize}
+%  \setlength{\itemsep}{0.2em}
+%     \setlength{\parskip}{0pt}
+% \item TPC member: TPDS, COINS 2025, SmartData 2024, HDIS 2023, IEEE ScalCom 2022. IEEE TPDS.
+% % \item Reviewer: , ACM TOCS, J.
+% \end{itemize}
+% \end{rSection}
+
+\begin{rSection}{Teaching}
+\begin{itemize}
+  \setlength{\itemsep}{0.2em}
+ \setlength{\parskip}{0pt}
+\item Instructor, Distributed Computer Systems (CISC3010), University of Macau.
+\item Guest Lecturer, Cloud-Native Computing and Microservices, University of Virginia, 2025.
+\end{itemize}
+\end{rSection}
+\vspace{-1em}
+
+% \vspace{-0.5em}
+\begin{rSection}{Community Services}
+\begin{itemize}
+  \setlength{\itemsep}{0.2em}
+ \setlength{\parskip}{0pt}
+\item PC member for EuroSys 2027.
+\item TPC member for TPDS, COINS 2025, SmartData-2024, HDIS 2023, IEEE ScalCom 2022.
+\end{itemize}
+\end{rSection}
+
+% \begin{rSection}{Skills}
+% \begin{itemize}
+%  \setlength{\itemsep}{0.2em}
+%     \setlength{\parskip}{0pt}
+% \item C/C++, Python, Cutlass, 
+% \item Kubernetes, Spark, TensorFlow 
+% \end{itemize}
+% \end{rSection}
+
+
+% \begin{rSection}{Community Services}
+% \begin{itemize}
+%  \setlength{\itemsep}{0.2em}
+%     \setlength{\parskip}{0pt}
+% \item Reviewer for IEEE Transactions on Parallel and Distributed Systems
+% \item Shadow PC for EuroSys 2023
+% \item Reviewer for Journal of Cloud Computing
+% \item Reviewer for Software: Practice and Experience
+% \item TPC member for IEEE ScalCom 2022
+% \item TPC member for HDIS 2022
+% \end{itemize}
+% \end{rSection}
+
+% \begin{rSection}{Referees}
+% \item[] Prof. Chengzhong Xu (Dissertation Advisor)\\
+% Chair Professor of Computer Science \\
+% Dean, Faculty of Science and Technology \\
+% Interim Director, Institute of  Collaborative Innovation \\
+% University of Macau, Macau SAR, China \\
+% Email: \email{czxu@um.edu.mo}\\
+% Phone: (853) 8822-4195
+
+% \item[] Prof. Lin Zhong(Yale Advisor)\\
+% Professor of Computer Science \\
+% Yale University \\
+% Email: \email{lin.zhong@yale.edu}\\
+% Phone: (203) 436-9450
+
+% % \item[] Prof. Anurag Khandelwal (Yale Advisor)\\
+% % Assistant Professor of Computer Science \\
+% % Yale University \\
+% % Email: \email{anurag.khandelwal@yale.edu}\\
+
+% \item[] Prof. Haiying Shen (UVA Advisor) \\
+% Associate Professor of Computer Science \\
+% University of Virginia\\
+% Email: \email{hs6ms@virginia.edu}\\
+% Phone: (434) 924-8271
+% \end{rSection}
+
+\end{document}

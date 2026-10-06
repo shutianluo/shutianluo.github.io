@@ -3,14 +3,39 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
+    <div class="post-title-row">
+      <h1 class="post-title">
+        {% if site.title == 'blank' %}
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+          {{ site.last_name }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+      <div class="profile-links header-links" aria-label="Profile links">
+        {% if site.data.socials.cv_pdf %}
+          <a href="{{ site.data.socials.cv_pdf | relative_url }}" title="CV" aria-label="CV" target="_blank">
+            <i class="ai ai-cv"></i>
+          </a>
+        {% endif %}
+        {% if site.data.socials.email %}
+          <a href="mailto:{{ site.data.socials.email | encode_email }}" title="Email" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        {% endif %}
+        {% if site.data.socials.scholar_userid %}
+          <a
+            href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+            title="Google Scholar"
+            aria-label="Google Scholar"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="ai ai-google-scholar"></i>
+          </a>
+        {% endif %}
+      </div>
+    </div>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
@@ -48,29 +73,6 @@ layout: default
               loading="eager"
             >
           </div>
-          <div class="profile-links" aria-label="Profile links">
-            {% if site.data.socials.cv_pdf %}
-              <a href="{{ site.data.socials.cv_pdf | relative_url }}" title="CV" aria-label="CV" target="_blank">
-                <i class="ai ai-cv"></i>
-              </a>
-            {% endif %}
-            {% if site.data.socials.email %}
-              <a href="mailto:{{ site.data.socials.email | encode_email }}" title="Email" aria-label="Email">
-                <i class="fa-solid fa-envelope"></i>
-              </a>
-            {% endif %}
-            {% if site.data.socials.scholar_userid %}
-              <a
-                href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
-                title="Google Scholar"
-                aria-label="Google Scholar"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class="ai ai-google-scholar"></i>
-              </a>
-            {% endif %}
-          </div>
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -83,7 +85,7 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -91,7 +93,7 @@ layout: default
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
@@ -99,7 +101,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}

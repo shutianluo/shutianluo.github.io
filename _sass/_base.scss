@@ -195,6 +195,176 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
+.post-title-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+
+  .post-title {
+    margin-bottom: 0;
+  }
+
+  .profile-links.header-links {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    font-size: 2rem;
+  }
+}
+
+// Let the recruiting note on the about page span the full line below the photo
+.clearfix > blockquote {
+  clear: both;
+}
+
+.current-focus {
+  display: block;
+  margin-top: 0.5rem;
+  color: var(--global-theme-color);
+  font-weight: 600;
+}
+
+// Research group: member grid on /group/
+.group-heading {
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.member-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem 2.5rem;
+  margin-bottom: 1rem;
+
+  .member-card {
+    width: 170px;
+    text-align: center;
+  }
+
+  .member-card-name {
+    display: block;
+    margin-top: 0.75rem;
+    font-size: 1.05rem;
+    font-weight: 500;
+  }
+
+  .member-card-years {
+    margin-top: 0.2rem;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+  }
+}
+
+.member-card-photo,
+.member-photo {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+  // keep space above the head: favor the upper part of portrait photos
+  object-position: 50% 25%;
+  display: block;
+}
+
+.member-photo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--global-divider-color);
+  color: var(--global-text-color-light);
+  font-size: 2.5rem;
+  font-weight: 600;
+  user-select: none;
+}
+
+// Research group: individual member pages
+.member-profile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin-top: 1rem;
+
+  .member-sidebar {
+    flex: 0 0 220px;
+    text-align: center;
+
+    .member-photo {
+      width: 180px;
+      height: 180px;
+      margin-bottom: 1.25rem;
+    }
+
+    .member-name {
+      font-size: 1.6rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .member-meta {
+      margin-bottom: 0.2rem;
+      color: var(--global-text-color-light);
+    }
+
+    .member-links {
+      margin-top: 0.75rem;
+
+      a {
+        font-size: 1.4rem;
+        margin: 0 0.4rem;
+      }
+    }
+  }
+
+  .member-main {
+    flex: 1;
+    min-width: 280px;
+
+    .member-columns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-top: 1rem;
+
+      .member-col {
+        flex: 1;
+        min-width: 220px;
+
+        h3 {
+          font-size: 1.25rem;
+          margin-bottom: 0.75rem;
+        }
+      }
+    }
+
+    .member-edu {
+      list-style: none;
+      padding-left: 0;
+
+      li {
+        display: flex;
+        gap: 0.6rem;
+        margin-bottom: 0.75rem;
+
+        i {
+          margin-top: 0.3rem;
+        }
+      }
+
+      .member-edu-school {
+        color: var(--global-text-color-light);
+        font-size: 0.9rem;
+      }
+    }
+
+    .member-back {
+      margin-top: 2rem;
+    }
+  }
+}
+
 .profile {
   width: 100%;
 
@@ -267,7 +437,9 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 22%;
+    // pull the photo up so its top aligns with the name in the header
+    margin-top: -6.5rem;
 
     .address {
       p {

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 # description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 6
@@ -22,6 +22,18 @@ My teaching so far has focused on **cloud computing, distributed systems, and AI
 ---
 
 ## Course and lecture experience
+
+### University of Macau
+
+**Distributed Computer Systems (CISC3010)** — Instructor
+Department of Computer Science, University of Macau
+
+- Core undergraduate course covering the principles of distributed systems:
+  communication, replication, consistency, fault tolerance, and consensus.
+- Connects classical distributed systems concepts to modern cloud and
+  AI infrastructure workloads.
+
+---
 
 ### University of Virginia
 

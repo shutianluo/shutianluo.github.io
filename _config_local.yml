@@ -1,5 +1,7 @@
 # Local preview overrides. Keep remote sample feeds disabled so the site can
 # build and serve without requiring network access.
+url: "http://localhost:4000"
+baseurl: ""
 external_sources: []
 
 # Optional demo content requires tools that are not needed to preview this site.

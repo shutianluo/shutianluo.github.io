@@ -1,7 +1,7 @@
 ---
 # layout: cv
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 5
 cv_pdf: ShutianCV.pdf # you can also use external links here
@@ -25,7 +25,7 @@ cv_pdf: ShutianCV.pdf # you can also use external links here
 <!-- ---
 layout: cv
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 5
 --- -->
