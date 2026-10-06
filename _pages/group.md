@@ -14,7 +14,7 @@ I lead the **AI Infra Group** in the Department of Computer Science at the Unive
 <div class="member-grid">
   <div class="member-card">
     <a href="{{ '/group/junchang-wang/' | relative_url }}">
-      <div class="member-card-photo member-photo-placeholder"><span>JW</span></div>
+      <img class="member-card-photo" src="{{ '/assets/img/members/junchang-wang.jpg' | relative_url }}" alt="Junchang Wang">
     </a>
     <a class="member-card-name" href="{{ '/group/junchang-wang/' | relative_url }}">Junchang Wang</a>
     <div class="member-card-years">2026 - Current</div>

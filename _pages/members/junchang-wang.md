@@ -4,6 +4,7 @@ title: Junchang Wang
 permalink: /group/junchang-wang/
 description: Ph.D. Student · AI Infra Group, University of Macau
 nav: false
+photo: members/junchang-wang.jpg
 years: 2026 - Current
 affiliation: University of Macau
 interests:

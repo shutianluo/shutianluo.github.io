@@ -173,6 +173,10 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - researchGroupCV/
+  - homePageCV.pdf
+  - cv.tex
+  - newHomepage.JPG
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
