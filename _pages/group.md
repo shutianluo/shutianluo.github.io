@@ -52,7 +52,7 @@ I lead the **AI Infra Group** in the Department of Computer Science at the Unive
 <div class="member-grid">
   <div class="member-card">
     <a href="{{ '/group/weiqi-liu/' | relative_url }}">
-      <div class="member-card-photo member-photo-placeholder"><span>WL</span></div>
+      <img class="member-card-photo" src="{{ '/assets/img/members/weiqi-liu.jpg' | relative_url }}" alt="Weiqi Liu">
     </a>
     <a class="member-card-name" href="{{ '/group/weiqi-liu/' | relative_url }}">Weiqi Liu</a>
     <div class="member-card-years">2026 - Current</div>

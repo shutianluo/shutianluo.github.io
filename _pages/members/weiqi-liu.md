@@ -4,6 +4,7 @@ title: Weiqi Liu
 permalink: /group/weiqi-liu/
 description: Remote Research Intern · AI Infra Group, University of Macau
 nav: false
+photo: members/weiqi-liu.jpg
 years: 2026 - Current
 affiliation: University of Washington
 homepage_url: https://bv003.github.io/
