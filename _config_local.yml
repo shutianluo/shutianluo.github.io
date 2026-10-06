@@ -5,7 +5,13 @@ baseurl: ""
 external_sources: []
 
 # Optional demo content requires tools that are not needed to preview this site.
+# NOTE: this list REPLACES the exclude list in _config.yml during local preview,
+# so private/local-only entries must be repeated here.
 exclude:
+  - researchGroupCV/
+  - homePageCV.pdf
+  - cv.tex
+  - newHomepage.JPG
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
