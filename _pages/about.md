@@ -27,7 +27,7 @@ latest_posts:
 ---
 
 
-I am a tenure-track Assistant Professor in the Department of Computer Science at the [University of Macau](https://fic.um.edu.mo/people/shutianluo/). I received my Ph.D. from the University of Chinese Academy of Sciences in 2023. Before joining the University of Macau, I conducted research at ByteDance in Seattle and held postdoctoral positions at the University of Virginia and Yale University.
+I am a tenure-track Assistant Professor in the Department of Computer Science at the [University of Macau](https://fic.um.edu.mo/people/shutianluo/). I received my Ph.D. from the University of Chinese Academy of Sciences in 2023, advised by Prof. [Chengzhong Xu](https://fic.um.edu.mo/people/czxu/) and working closely with Prof. [Huanle Xu](https://fic.um.edu.mo/people/huanlexu/). Before joining the University of Macau, I conducted research at ByteDance in Seattle and held postdoctoral positions at the University of Virginia and Yale University.
 
 My research interests lie broadly in AI systems, cloud computing, and distributed systems, with an emphasis on building efficient AI infrastructure over emerging heterogeneous computing architectures. I lead the [AI Infra Group](/group/) at the University of Macau.
 <span class="current-focus">Current focus: Efficient LLM Systems · CPU–GPU Superchips · Physical AI</span>

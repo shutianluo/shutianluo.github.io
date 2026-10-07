@@ -375,10 +375,10 @@ ul.task-list input[type="checkbox"] {
     margin-top: 0.5rem;
 
     .profile-email {
-      flex: 1;
+      // size the domain image by height so it matches the text beside it
+      flex: none;
       width: auto;
-      min-width: 0;
-      height: auto;
+      height: 1.9rem;
       margin-left: 0;
       box-shadow: none;
     }
