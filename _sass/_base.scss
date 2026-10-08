@@ -435,6 +435,27 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+// Mobile: keep the photo compact and floated beside the text instead of
+// the theme default of a full-width image above the content
+@media (max-width: 575.98px) {
+  .profile {
+    width: 50%;
+
+    .profile-email-row {
+      flex-wrap: wrap;
+    }
+
+    .profile-email-label,
+    .profile-email-username {
+      font-size: 0.7rem;
+    }
+
+    .profile-email {
+      height: 1.6rem;
+    }
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 22%;
